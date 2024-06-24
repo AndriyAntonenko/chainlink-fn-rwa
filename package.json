@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@chainlink/functions-toolkit": "^0.2.8",
+    "ethers": "^5.7.2",
+    "inquirer": "^8.2.6"
+  },
+  "name": "rwa-creator",
+  "description": "Directly pegged RWA",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "simulate": "source .env && node ./functions/simulators/alpaca-mint.simulator.js",
+    "upload-secrets": "source .env && node ./functions/upload-secrets.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrii Antonenko",
+  "license": "ISC"
+}
