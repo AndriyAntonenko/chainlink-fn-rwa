@@ -1,3 +1,9 @@
+# RWAs
+
+Experiments and tries to build some RWAs.
+
+## dTSLA (created by example from [PatrickAlphaC](https://github.com/PatrickAlphaC/rwa-creator))
+
 1. Only the owner can mint dTSLA
 2. Anyone can redeem dTSLA for USDC or "the stablecoin" of choice.
 3. Chainlink functions will kick off a TSLA sell for USDC, and then send it to the contract
